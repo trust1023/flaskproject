@@ -17,9 +17,13 @@ class My:
     def dameon(self,value):
         self._dameon = value
 
-a = My()
-print(a.dameon)
-a.dameon = True
-print(a.dameon)
+# a = My()
+# print(a.dameon)
+# a.dameon = True
+# print(a.dameon)
+
+a = -1 or None
+print(a)
+
 
 

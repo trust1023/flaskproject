@@ -17,6 +17,7 @@ def show_username(username):
 @app.route('/users/<int:userid>/')
 def show_userid(userid):
     print(type(userid))
+    c = 'haha'
     return 'your userid is %s'%userid
 
 @app.route('/userinfo/',methods=['GET','POST'])
